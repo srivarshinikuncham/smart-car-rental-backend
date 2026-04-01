@@ -8,7 +8,7 @@ import com.example.demo.service.UserService;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin
+@CrossOrigin(origins="https://smart-car-rental-frontend.onrender.com")
 public class UserController {
 
     @Autowired
